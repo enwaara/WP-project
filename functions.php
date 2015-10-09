@@ -2,7 +2,7 @@
 /* Functions for our theme
  *
  *
- * @theme Lecture
+ * @WP-Project
  */
 
 //$main_js_part = '/js/main.js';
@@ -29,9 +29,9 @@ function lecture_add_styles_scripts( ) {
 	wp_enqueue_style( 'whatever_style', get_template_directory_uri().'/css/main.css', array(), $version );
 }
 
-add_action('wp_enqueue_scripts', 'lecture_add_styles_scripts');
+add_action('wp_enqueue_scripts', 'add_styles_scripts');
 
-add_action('init', 'lecture_add_theme_support');
+add_action('init', 'add_theme_support');
 
 function lecture_add_theme_support() {
 	add_theme_support('custom-background');
@@ -46,7 +46,7 @@ function lecture_add_theme_support() {
 }
 
 /* Our custom post types */
-add_action('init', 'lecture_post_types');
+add_action('init', 'post_types');
 
 function lecture_post_types() {
 	register_post_type( 'person', array(
