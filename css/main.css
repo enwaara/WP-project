@@ -1,4 +1,48 @@
 .page-wrapper {
-	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
+
+header{
+	width: 100%;
+	position: fixed;
+	background: #ccc;
+	height: auto;
+	margin: 0;
+}
+
+header > h1{
+	width: 100%;
+	text-align: center;
+	margin: 2%;
+}
+
+.menu{
+	width: 25%;
+	margin: 0 auto;
+}
+
+.menu > ul{
+	width: 100%;
+}
+
+.menu > ul > li{
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin: 2%;
+}
+
+.menu > ul > li > a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Open Sans";
+	font-size: 1em;
+	color: #000;
+}
+
+article{
+	width: 70%;
 	margin: 0 auto;
 }

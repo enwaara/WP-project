@@ -7,11 +7,16 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<div class="page-wrapper">
+
 		<header>
-			<h1>Hello world</h1>
+
+			<h1>Hello</h1>
+
 			<?php wp_nav_menu( array(
 				'theme_location' => 'main_menu',
 				'container' => 'nav'
 			) ); ?>
+
 		</header>
+
+	<div class="page-wrapper">
