@@ -1039,3 +1039,21 @@ address{
 	padding: 5% 0% 5% 0%;
 	font-size: 3em;
 }
+
+/*--------Footer-------*/
+
+footer{
+	width: 100%;
+	padding: 2% 0% 0% 5%;
+	color: #F4B350;
+	font-size: 0.8em;
+}
+
+footer > p > a{
+	color: #F4B350;
+	text-decoration: none;
+}
+
+footer > p > a:hover{
+	color: #fff;
+}
